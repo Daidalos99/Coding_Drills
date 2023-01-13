@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main(void){
-    std::cout << "ë¬¸ì œì˜ ì •ë‹µ" << std::endl;
+    std::cout << "¹®Á¦ÀÇ Á¤´ä" << std::endl;
     
     return 0;
 }
