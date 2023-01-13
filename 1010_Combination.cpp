@@ -1,5 +1,5 @@
 #include <iostream>
-
+// Combination
 int main(){
     int num;
     std::cin >> num;
@@ -17,3 +17,4 @@ int main(){
     }
     return 0;
 }
+
