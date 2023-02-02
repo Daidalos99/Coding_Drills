@@ -1,3 +1,5 @@
+// silver 5
+// dynamic programming
 #include <iostream>
 
 static int dp[30][30] = { 0, };

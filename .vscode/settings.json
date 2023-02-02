@@ -43,6 +43,7 @@
         "xtr1common": "cpp",
         "xutility": "cpp",
         "string": "cpp",
-        "1010_dp": "cpp"
+        "1010_dp": "cpp",
+        "vector": "cpp"
     }
 }

@@ -1,5 +1,6 @@
+// silver 5
+// Just Combination
 #include <iostream>
-// Combination
 int main(){
     int num;
     std::cin >> num;
