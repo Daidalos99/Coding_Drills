@@ -44,6 +44,7 @@
         "xutility": "cpp",
         "string": "cpp",
         "1010_dp": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "map": "cpp"
     }
 }

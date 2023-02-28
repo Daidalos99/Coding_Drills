@@ -10,7 +10,7 @@ using namespace std;
 // 문자열의 개수를 +1
 // map: 왼쪽이 key값, 오른쪽이 value값
 // key와 value를 가지는 노드를 생성하여 정렬된 트리형태로 저장해둠
-map<string, bool> m;
+map<string, bool> map1;
 int N, M;
 string str;
 int num = 0;
@@ -19,11 +19,12 @@ int main(void){
     cin >> N >> M;
     for(int i = 0; i < N; i++){
         cin >> str;
-        m.insert(pair<string, bool>(str, true));
+        // key:value 쌍으로 이루어진 map에 pair들을 넣어줌
+        map1.insert(pair<string, bool>(str, true));
     }
     for(int i = 0; i < M; i++){
         cin >> str;
-        if(m[str]==true) num++;
+        if(map1[str]==true) num++;
     }
     cout << num << endl;
 }
